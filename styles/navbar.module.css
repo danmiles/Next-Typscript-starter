@@ -1,0 +1,41 @@
+.navbar {
+  padding: 10px 0;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--primary-color);
+}
+
+.list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+
+.link {
+  color: var(--link-color);
+  font-size: 16px;
+  font-weight: 500;
+  transition: var(--transition);
+}
+.link:hover {
+  color: var(--hover);
+}
+
+@media only screen and (max-width: 992px) {
+  .menu {
+    display: none;
+  }
+}

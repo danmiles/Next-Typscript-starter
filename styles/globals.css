@@ -1,0 +1,124 @@
+:root {
+  /* Global color and fonts*/
+  --main-font: 'Inter', sans-serif;
+  --second-font: 'Inter', sans-serif;
+  --primary-color: #30b573;
+  --bg-color-dark: #191a25;
+  --link-color: #1cc370;
+  --hover: #24d3dc;
+  --font-size: 18px;
+  --text: #e3e0e0;
+  --white: #ffffff;
+  --transition: all 0.3s ease;
+}
+
+
+body {
+  color: var(--text);
+  font-size: var(--font-size);  
+  font-family: var(--main-font);
+  background-color: var(--bg-color-dark);
+  line-height: 1.4;
+  min-width: 320px;
+  position: relative;
+  overflow-x: hidden;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+@media only screen and (max-width: 1440px) {
+  .container {
+    max-width: 1200px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .container {
+    max-width: 992px;
+  }
+}
+
+section {
+  padding: 100px 0;
+}
+
+.section-title {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  color: var(--primary-color);
+}
+
+@media only screen and (max-width: 1200px) {
+  section {
+    padding: 80px 0;
+  }
+
+  .section-title {
+    font-size: 32px;
+    margin-bottom: 25px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  section {
+    padding: 40px 0;
+  }
+
+  .section-title {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  section {
+    padding: 30px 0;
+  }
+
+  .section-title {
+    font-size: 24px;
+  }
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+ul li,
+ol li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: var(--link-color);
+  transition: var(--transition);
+}
+
+/* Remove blue color on click (mobile devices) */
+input,
+textarea,
+button,
+select,
+a,
+div {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+}

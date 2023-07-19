@@ -1,0 +1,15 @@
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Uploaded to: SVG Repo, www.svgrepo.com, Transformed by: SVG Repo Mixer Tools -->
+<svg width="800px" height="800px" viewBox="-153.85 0 2000 2000" xmlns="http://www.w3.org/2000/svg" fill="#000000">
+<g id="SVGRepo_bgCarrier" stroke-width="0"/>
+<g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/>
+<g id="SVGRepo_iconCarrier">
+<defs>
+<linearGradient id="a" x1="191.59" y1="1712.04" x2="1419.34" y2="662.26" gradientUnits="userSpaceOnUse">
+<stop stop-color="#24d3dc"/>
+<stop offset="1" stop-color="#1ab769"/>
+</linearGradient>
+</defs>
+<path d="M153.85 380.09l669.68 316.74V2000l-669.68-316.74V380.09zM1167.42 0L186 348.94l663.68 318.74 978.38-350.94zm-18.1 596.29v797.38l696.83 271.49V345.89z" transform="translate(-153.85)" fill="url(#a)"/>
+</g>
+</svg>
